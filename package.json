@@ -1,0 +1,16 @@
+{
+  "name": "marketapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Jarett Young",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.8.0",
+    "jest": "^28.1.0"
+  }
+}
