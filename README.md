@@ -7,6 +7,9 @@ I made a function to produce the data that I will be testing the app with.
 
 ![Chart1](images/chart.png)
 
+The function produces a new random data set each time I run it. And I am  
+able to get a full range of datasets with this function.
+
 ## Create the App
 Now I need to make the app that will take a amount of money to be invested  
 and then either buy or sell a percentage when the market goes up or down  
