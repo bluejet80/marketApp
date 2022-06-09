@@ -5,6 +5,8 @@ This is the market app that is a project for market analysis
 ## Create a viable Dataset
 I made a function to produce the data that I will be testing the app with.
 
+![Chart1](images/chart.png)
+
 ## Create the App
 Now I need to make the app that will take a amount of money to be invested  
 and then either buy or sell a percentage when the market goes up or down  
