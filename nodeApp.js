@@ -1,5 +1,5 @@
 "use strict";
-
+const fs = require("fs");
 const getRandom = (upper, lower = 1) =>
   Math.floor(Math.random() * (upper - lower) + lower);
 
@@ -46,3 +46,9 @@ const randObj = randomSeq(100);
 
 const marketObj = runMarket(indexNum, increment, 300);
 console.log(marketObj);
+const jsonObject = JSON.stringify(marketObj);
+
+fs.writeFile(`./marketdata.json`, jsonObject, (err) => {
+  if (err) return console.log(err.message);
+  console.log("Market Object saved.");
+});
